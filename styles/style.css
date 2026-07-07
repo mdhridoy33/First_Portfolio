@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    /* background-color: red; */
+}
+
+nav {
+    /* background-color: aqua;  */
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1440px;
+    margin: auto; */
+    padding: 10px 0px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 33px;
+
+}
+
+.logo-r {
+    color: #fd6e0a;
+}
+
+.ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #fd6e0a;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #fd6e0a;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fd6e0a;
+    cursor: pointer;
+}
+
+.hero-parent-root {
+    background-color: #fae7da;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+
+}
+
+.hero-p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-left-p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.hero-left h1 {
+    font-weight: bolder;
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.hero-left-btn {
+    margin-top: 10px;
+
+}
+/* about us css */
+.about-parent{
+    background-color: #fae7da;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.about-parent p{
+    margin: 10px 0px;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.about-box-parent .box{
+background-color: #fd6e0a;
+padding: 5px;
+border-radius: 5px;
+}
