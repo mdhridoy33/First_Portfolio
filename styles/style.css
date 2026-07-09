@@ -159,3 +159,19 @@ ul li a {
     width: 50px;
     margin-bottom: 20px;
 }
+/* my resume start */
+.resume-parent{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 80px;
+}
+.resume-parent h3{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.resume-title{
+    text-align: center;
+    font-size: 43px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
